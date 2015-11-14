@@ -5,3 +5,5 @@ Message.create title: "Gettysburg Address", author: "Lincoln", content: "Four sc
 Message.create title: "Christmas", author: "SantaClause", content: "Ho Ho Ho!"
 
 Message.create title: "National News", author: "CBC", content: "News at 6"
+
+<a href="/messages/new”>Post a message… It’s FREE (for now)!</a>
