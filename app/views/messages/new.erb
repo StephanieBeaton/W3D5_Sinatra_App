@@ -1,3 +1,13 @@
+<% if @message && @message.errors.any? %>
+   <div>
+       <strong>Some issues with your message, please fix them:</strong>
+       <ul>
+            <% @message.errors.full_messages.each do |message| %>
+                 <li><%= message %></li>
+             <% end %>
+       </ul>
+    </div>
+<% end %>
 <form action="/messages" method="post">
     <div>
         <label>Author:</label>
