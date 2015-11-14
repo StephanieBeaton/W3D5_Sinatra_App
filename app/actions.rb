@@ -1,4 +1,7 @@
 # Homepage (Root path)
+
+# get '/messages/:id' before the get '/messages/new'  gives Active Record errors
+
 get '/' do
   erb :index
 end
@@ -17,4 +20,8 @@ post '/messages' do
   )
   @message.save
   redirect '/messages'
+end
+get '/messages/:id' do
+  @message = Message.find params[:id]
+  erb :'messages/show'
 end
