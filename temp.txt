@@ -1,0 +1,7 @@
+Message.create title: "First message", author: "Someone", content: "KV is so cool"
+
+Message.create title: "Gettysburg Address", author: "Lincoln", content: "Four score and twenty ..."
+
+Message.create title: "Christmas", author: "SantaClause", content: "Ho Ho Ho!"
+
+Message.create title: "National News", author: "CBC", content: "News at 6"
